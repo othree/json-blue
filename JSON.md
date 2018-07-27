@@ -102,6 +102,11 @@ Not like JSON, but related to it.
 
 * [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
+## MISC
+
+* [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr)
+
+
 ## Blue?
 
 Its hard to find a good domain available. And I love the color blue. 
