@@ -106,6 +106,12 @@ Not like JSON, but related to it.
 
 * [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
+## DB
+
+* [MongoDB](https://www.mongodb.com/)
+* [CouchDB](http://couchdb.apache.org/)
+* [PostgreDB](https://www.postgresql.org/docs/10/static/datatype-json.html)
+
 ## MISC
 
 * [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr)
