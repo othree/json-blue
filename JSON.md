@@ -79,6 +79,10 @@ Not like JSON, but related to it.
 
 ## Protocol
 
+* [JSON API](http://jsonapi.org/)
+* [HAL(Hypertext Application Language)](http://stateless.co/hal_specification.html) is a simple format that gives a consistent and easy way to hyperlink between resources in your API.
+* [Collection+JSON](https://github.com/collection-json/spec) is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.
+
 ## Tool
 
 ## Application
