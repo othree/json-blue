@@ -38,6 +38,8 @@ Interchange Syntax
 * [RFC 7095](https://tools.ietf.org/html/rfc7095) jCard: The JSON Format for vCard
 * [RFC 7265](https://tools.ietf.org/html/rfc7265) jCal: The JSON Format for iCalendar
 * [RFC 7946](https://tools.ietf.org/html/rfc7946) [GeoJSON](http://geojson.org/) is a format for encoding a variety of geographic data structures.
+* [JSON-LD](https://json-ld.org/) is a lightweight Linked Data format.
+* [i18n next JSON](https://www.i18next.com/misc/json-format) i18next is an internationalization-framework written in and for JavaScript.
 
 ### JSON Schema
 
