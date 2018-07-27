@@ -7,6 +7,7 @@ The following contents are in several categories:
 * [Spec](#spec)
 * [Data Format](#data-format)
 * [Variant Format](#variant-format)
+* [Related Format](#related-format)
 * [Protocol](#protocol)
 * [Tool](#tool)
 * [Application](#application)
