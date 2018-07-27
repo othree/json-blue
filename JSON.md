@@ -84,9 +84,11 @@ Not like JSON, but related to it.
 ## Protocol
 
 * [JSON API](http://jsonapi.org/)
+* [JSON-RPC](https://www.jsonrpc.org/) is a stateless, light-weight remote procedure call (RPC) protocol.
 * [JSONP(JSON with Padding](https://en.wikipedia.org/wiki/JSONP) is used to request data from a server residing in a different domain than the client.
 * [HAL(Hypertext Application Language)](http://stateless.co/hal_specification.html) is a simple format that gives a consistent and easy way to hyperlink between resources in your API.
 * [Collection+JSON](https://github.com/collection-json/spec) is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.
+* [OData JSON Format](https://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)
 
 ## Tool
 
