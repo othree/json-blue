@@ -39,6 +39,17 @@ Interchange Syntax
 
 ## Variant Format
 
+Formats Like JSON.
+
+* [Hjson](http://hjson.org/) is a syntax extension to JSON. It's NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It's intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.
+* [RSON](https://code.google.com/archive/p/rson/) file format is easy to edit, diff, and version control, that is a superset of JSON and smaller than YAML.
+* [rsonlite](https://pypi.org/project/rsonlite/0.1.0/) is the easiest way to create custom indented data file formats in Python. It is a single small module that can be shipped with your application, or it can be easy-installed or pipped from PyPI.
+* [LJSON](https://github.com/MaiaVictor/LJSON) JSON extended with pure functions.
+* [LJSON(Loose JSON)](https://github.com/daviddengcn/ljson) a superset of JSON with a loose format requirement. 
+* [JSON Lines](http://jsonlines.org/) also called newline-delimited JSON. JSON Lines is a convenient format for storing structured data that may be processed one record at a time.
+* [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers.
+* [JSON5](https://json5.org/) The JSON5 Data Interchange Format (JSON5) is a superset of JSON that aims to alleviate some of the limitations of JSON by expanding its syntax to include some productions from ECMAScript 5.1.
+
 ## Related Format
 
 Not like JSON, but related to it.
