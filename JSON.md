@@ -60,6 +60,7 @@ Formats Like JSON.
 * [JSON Lines](http://jsonlines.org/) also called newline-delimited JSON. JSON Lines is a convenient format for storing structured data that may be processed one record at a time.
 * [Jsonnet](https://jsonnet.org/) A data templating language for app and tool developers.
 * [JSON5](https://json5.org/) The JSON5 Data Interchange Format (JSON5) is a superset of JSON that aims to alleviate some of the limitations of JSON by expanding its syntax to include some productions from ECMAScript 5.1.
+* [HOCON(Human-Optimized Config Object Notation)](https://github.com/lightbend/config/blob/master/HOCON.md) is a format for human-readable data, and a superset of JSON and .properties.
 
 ## Related Format
 
