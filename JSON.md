@@ -44,6 +44,7 @@ Interchange Syntax
 * [i18n next JSON](https://www.i18next.com/misc/json-format) i18next is an internationalization-framework written in and for JavaScript.
 * [SPARQL](https://www.w3.org/TR/sparql11-results-json/) is a set of standards for the query and update of RDF data, along with ways to access such data over the web. This document describes the representation of SELECT and ASK query results using JSON. 
 * [CoverageJSON](https://www.w3.org/TR/covjson-overview/) is a data format for describing “coverage” data in JavaScript Object Notation (JSON), and provides an overview of its design and capabilities.
+* [NetJSON](netjson.org/) is a data interchange format based on JavaScript Object Notation (JSON) designed to describe the basic building blocks of layer2 and layer3 networking.
 
 ### JSON Schema
 
