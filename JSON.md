@@ -38,7 +38,9 @@ Interchange Syntax
 * [RFC 7095](https://tools.ietf.org/html/rfc7095) jCard: The JSON Format for vCard
 * [RFC 7265](https://tools.ietf.org/html/rfc7265) jCal: The JSON Format for iCalendar
 * [RFC 7946](https://tools.ietf.org/html/rfc7946) [GeoJSON](http://geojson.org/) is a format for encoding a variety of geographic data structures.
+* [TopoJSON](https://github.com/topojson/topojson) is an extension of GeoJSON that encodes topology.
 * [JSON-LD](https://json-ld.org/) is a lightweight Linked Data format.
+* [JSON-stat](https://json-stat.org/) is a simple lightweight JSON dissemination format best suited for data visualization, mobile apps or open data initiatives, that has been designed for all kinds of disseminators.
 * [i18n next JSON](https://www.i18next.com/misc/json-format) i18next is an internationalization-framework written in and for JavaScript.
 * [SPARQL](https://www.w3.org/TR/sparql11-results-json/) is a set of standards for the query and update of RDF data, along with ways to access such data over the web. This document describes the representation of SELECT and ASK query results using JSON. 
 * [CoverageJSON](https://www.w3.org/TR/covjson-overview/) is a data format for describing “coverage” data in JavaScript Object Notation (JSON), and provides an overview of its design and capabilities.
