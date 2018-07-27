@@ -19,7 +19,7 @@ The following contents are in several categories:
 * [ECMA 404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf) The JSON Data 
 Interchange Syntax
 * [RFC 4627](https://tools.ietf.org/html/rfc4627)
-* [RFC 7493](https://tools.ietf.org/html/rfc7493) Internet JSON
+* [RFC 7493](https://tools.ietf.org/html/rfc7493) I-JSON(Internet JSON)
 * [RFC 8259/STD90](https://tools.ietf.org/html/rfc8259) Story of this RFC: [The Last JSON Spec](https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90)
 
 ### Other Specs Related to JSON
@@ -27,6 +27,8 @@ Interchange Syntax
 * [RFC 6901](https://tools.ietf.org/html/rfc6901) JSON Pointer
 * [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patch
 * [RFC 7396](https://tools.ietf.org/html/rfc7396) JSON Merge Patch
+
+### Etc
 
 * [Search JSON at RFC Editor](https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&title=JSON&pubstatus[]=Any&pub_date_type=any&sortkey=Number&sorting=ASC)
 
@@ -37,13 +39,29 @@ Interchange Syntax
 
 ## Variant Format
 
+## Related Format
+
+Not like JSON, but related to it.
+
+### Binary
+
+* [MessagePack](https://msgpack.org/) is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON.
+* [BSON](http://bsonspec.org/) short for Bin­ary JSON, is a bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments.
+* [BJSON](http://bjson.org/) is binary form of JSON.
+* [UBJSON(Universal Binary JSON)](http://ubjson.org/) The universally compatible format specification for binary JSON.
+
+### XML
+
+* [JXON (lossless JavaScript XML Object Notation)](https://developer.mozilla.org/en-US/docs/Archive/JXON) is a generic name by which is defined the representation of JavaScript Objects using XML.
+* [JSONx](https://www.ibm.com/support/knowledgecenter/SS9H2Y_7.1.0/com.ibm.dp.doc/json_jsonx.html) is an IBM® standard format to represent JSON as XML.
+
 ## Protocol
 
 ## Tool
 
 ## Application
 
-### JOSE
+### JOSE (JSON Object Signing and Encryption) Working Group
 
 * [RFC 7515](https://tools.ietf.org/html/rfc7515) JSON Web Signature
 * [RFC 7516](https://tools.ietf.org/html/rfc7516) JSON Web Encryption
@@ -51,6 +69,9 @@ Interchange Syntax
 * [RFC 7518](https://tools.ietf.org/html/rfc7518) JSON Web Algorithm
 * [RFC 7519](https://tools.ietf.org/html/rfc7519) JSON Web Token
 
+### What is JOSE
+
+* [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
 ## Blue?
 
