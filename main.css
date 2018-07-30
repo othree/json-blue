@@ -3,11 +3,17 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 a, a:visited {
-  color: #1034a6; /* Egyptian */
+  color: #2d81c9;
 }
 
 header {
+  height: 48px;
+  background-image: url(static/header-bg.png);
 }
 
 h1 {
@@ -38,7 +44,7 @@ h4 {
 }
 
 main {
-  margin: 72px auto;
+  margin: 64px auto 88px;
   max-width: 960px;
 }
 
@@ -67,7 +73,7 @@ li:before {
   border-radius: 4px;
   width: 4px;
   height: 4px;
-  background-color: #1034a6; /* Egyptian */
+  background-color: #2d81c9;
 }
 
 li p {
@@ -76,7 +82,7 @@ li p {
 
 blockquote {
   margin: 24px 0;
-  border-left: 4px solid #999;
+  border-left: 4px solid #ccc;
   padding-left: 24px;
 }
 
