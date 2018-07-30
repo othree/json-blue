@@ -4,15 +4,17 @@ A place to collect everything related to JSON
 
 The following contents are in several categories:
 
-* [Spec](#spec)
+* [Specification](#spec)
 * [Data in JSON Format](#data-in-json-format)
 * [Variant Format](#variant-format)
 * [Related Format](#related-format)
 * [Protocol](#protocol)
 * [Tool](#tool)
 * [Application](#application)
+* [Database](#db)
+* [MISC](#misc)
 
-## Spec
+## Specification
 
 ### JSON Specs
 

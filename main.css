@@ -1,0 +1,59 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a, a:visited {
+  color: #1034a6; /* Egyptian */
+}
+
+header {
+}
+
+h1 {
+  margin: 0 0 48px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 64px;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 24px 0 16px 32px;
+  font-size: 16px;
+}
+
+main {
+  margin: 72px auto;
+  max-width: 960px;
+}
+
+p, ul {
+  margin-left: 32px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  list-style: none;
+}
+
+li:before {
+  display: block;
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  border-radius: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #1034a6; /* Egyptian */
+}
