@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <title>Collect Stuff Related to JSON - JSON Blue</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link href="main.css" rel="stylesheet" />
   </head>
@@ -11,8 +13,9 @@
     <main>
 
 <h1 id="json-blue">JSON Blue</h1>
-<p>A place to collect everything related to JSON</p>
-<p>The following contents are in several categories:</p>
+<p>A place to collect stuff related to JSON</p>
+<p>This is JSON Blue, a small website to collect JSON stuff. Including standard document, variant data format, tools, application and some history document.</p>
+<h3 id="table-of-contents">Table of Contents</h3>
 <ul>
 <li><a href="#spec">Specification</a></li>
 <li><a href="#data-in-json-format">Data in JSON Format</a></li>
@@ -22,7 +25,7 @@
 <li><a href="#tool">Tool</a></li>
 <li><a href="#application">Application</a></li>
 <li><a href="#db">Database</a></li>
-<li><a href="#misc">MISC</a></li>
+<li><a href="#more">More</a></li>
 </ul>
 <h2 id="specification">Specification</h2>
 <h3 id="json-specs">JSON Specs</h3>
@@ -30,7 +33,7 @@
 <li><a href="http://json.org/">JSON</a> by Douglas Crockford. Also have a list of implementations in different languages.</li>
 <li><a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA 404</a> The JSON Data Interchange Syntax</li>
 <li><a href="https://tools.ietf.org/html/rfc4627">RFC 4627</a></li>
-<li><a href="https://tools.ietf.org/html/rfc7493">RFC 7493</a> I-JSON(Internet JSON)</li>
+<li><a href="https://tools.ietf.org/html/rfc7493">RFC 7493</a> I-JSON(Internet JSON) is a restricted profile of JSON designed to maximize interoperability and increase confidence that software can process it successfully with predictable results.</li>
 <li><a href="https://tools.ietf.org/html/rfc8259">RFC 8259/STD90</a> Story of this RFC: <a href="https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90">The Last JSON Spec</a></li>
 </ul>
 <h3 id="other-specs-related-to-json">Other Specs Related to JSON</h3>
@@ -39,7 +42,7 @@
 <li><a href="https://tools.ietf.org/html/rfc6902">RFC 6902</a> JSON Patch</li>
 <li><a href="https://tools.ietf.org/html/rfc7396">RFC 7396</a> JSON Merge Patch</li>
 </ul>
-<h3 id="etc">Etc</h3>
+<h3 id="more-at-rfc">More at RFC</h3>
 <ul>
 <li><a href="https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=JSON&amp;pubstatus[]=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC">Search JSON at RFC Editor</a></li>
 </ul>
@@ -121,9 +124,16 @@
 <li><a href="http://couchdb.apache.org/">CouchDB</a></li>
 <li><a href="https://www.postgresql.org/docs/10/static/datatype-json.html">PostgreDB</a></li>
 </ul>
-<h2 id="misc">MISC</h2>
+<h2 id="more">More</h2>
+<h3 id="history">History</h3>
 <ul>
-<li><a href="https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Comments in JSON</a></li>
+<li><p><a href="https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Comments in JSON</a></p>
+<blockquote>
+<p><strong>Comments in JSON</strong></p>
+<p>I removed comments from JSON because I saw people were using them to hold parsing directives, a practice which would have destroyed interoperability. I know that the lack of comments makes some people sad, but it shouldn't.</p>
+<p>Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.</p>
+</blockquote>
+<p><cite>Douglas Crockford</cite></p></li>
 </ul>
 <h2 id="blue">Blue?</h2>
 <p>Its hard to find a good domain available. And I love the color blue. Also, I am a fan of Dragon Ball. Super Saiyan Blue is very powerful. So I take the name.</p>
