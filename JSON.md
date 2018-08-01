@@ -17,6 +17,7 @@ application and some history document.
 * [Database](#db)
 * [More](#more)
 
+
 ## Specification
 
 ### JSON Specs
@@ -39,6 +40,7 @@ Interchange Syntax
 ### More at RFC
 
 * [Search JSON at RFC Editor](https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&title=JSON&pubstatus[]=Any&pub_date_type=any&sortkey=Number&sorting=ASC)
+
 
 ## Data in JSON Format
 
@@ -76,6 +78,7 @@ Interchange Syntax
 * [objecthash](https://github.com/benlaurie/objecthash) A way to cryptographically hash objects (in the JSON-ish
    sense) that works cross-language. And, therefore, cross-encoding.
 
+
 ## Variant Format
 
 Formats Like JSON.
@@ -98,6 +101,7 @@ Formats Like JSON.
    ECMAScript 5.1.
 * [HOCON(Human-Optimized Config Object Notation)](https://github.com/lightbend/config/blob/master/HOCON.md) is 
    a format for human-readable data, and a superset of JSON and .properties.
+
 
 ## Related Format
 
@@ -125,6 +129,7 @@ Not like JSON, but related to it.
 * [MSON](https://github.com/apiaryio/mson) is a plain-text, human and machine readable, description format 
    for describing data structures in common markup formats such as JSON, XML or YAML.
 
+
 ## Protocol
 
 * [JSON API](http://jsonapi.org/)
@@ -140,7 +145,9 @@ Not like JSON, but related to it.
    information as a JSON object. Applications that use Falcor represent all their domain data as a single JSON 
    Graph object.
 
+
 ## Tool
+
 
 ## Application
 
@@ -156,6 +163,7 @@ Not like JSON, but related to it.
 
 * [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
+
 ## DB
 
 * [MongoDB](https://www.mongodb.com/)
@@ -163,6 +171,7 @@ Not like JSON, but related to it.
 * [PostgreDB](https://www.postgresql.org/docs/10/static/datatype-json.html), 
 * [functions and operators](https://www.postgresql.org/docs/9.5/static/functions-json.html)
 * [SQLite](https://www.sqlite.org/json1.html)
+
 
 ## More
 
@@ -180,6 +189,7 @@ Not like JSON, but related to it.
 
 * [Subsume JSON](https://github.com/tc39/proposal-json-superset) A proposal to extend ECMA-262 syntax into a
    superset of JSON.
+
 
 ## Blue?
 
