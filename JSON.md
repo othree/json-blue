@@ -175,6 +175,8 @@ Not like JSON, but related to it.
 
 ## More
 
+* [reddit r/json](https://www.reddit.com/r/json/)
+
 ### History
 
 * [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) 
