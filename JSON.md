@@ -7,7 +7,7 @@ application and some history document.
 
 ### Table of Contents
 
-* [Specification](#spec)
+* [Specification](#specification)
 * [Data in JSON Format](#data-in-json-format)
 * [Variant Format](#variant-format)
 * [Related Format](#related-format)
