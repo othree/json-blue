@@ -60,13 +60,21 @@ Interchange Syntax
 * [NetJSON](netjson.org/) is a data interchange format based on JavaScript Object Notation (JSON) designed to
    describe the basic building blocks of layer2 and layer3 networking.
 
-### JSON Schema
+### Valdation
 
 * [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
    [Implementations](http://json-schema.org/implementations.html).
 * [JSON Schema Markdown Tools](https://github.com/adobe/jsonschema2md) makes it easier by providing a number of
    scripts that can turn JSON Schema files into readable Markdown documentation that is ready for consumption 
    on GitHub or processed using Jekyll or other static site generators.
+* [TJSON(Tagged JSON)](https://www.tjson.org/) s a tagging scheme/microformat for enriching the types that can be 
+   stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already 
+   commonly used for processing JSON into a schema-free, self-describing format. 
+
+### Encryption
+
+* [objecthash](https://github.com/benlaurie/objecthash) A way to cryptographically hash objects (in the JSON-ish
+   sense) that works cross-language. And, therefore, cross-encoding.
 
 ## Variant Format
 
@@ -128,6 +136,9 @@ Not like JSON, but related to it.
 * [Collection+JSON](https://github.com/collection-json/spec) is a JSON-based read/write hypermedia-type designed
    to support management and querying of simple collections.
 * [OData JSON Format](https://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html)
+* [JSON Graph](http://netflix.github.io/falcor/documentation/jsongraph.html) is a convention for modeling graph 
+   information as a JSON object. Applications that use Falcor represent all their domain data as a single JSON 
+   Graph object.
 
 ## Tool
 
@@ -149,7 +160,9 @@ Not like JSON, but related to it.
 
 * [MongoDB](https://www.mongodb.com/)
 * [CouchDB](http://couchdb.apache.org/)
-* [PostgreDB](https://www.postgresql.org/docs/10/static/datatype-json.html)
+* [PostgreDB](https://www.postgresql.org/docs/10/static/datatype-json.html), 
+* [functions and operators](https://www.postgresql.org/docs/9.5/static/functions-json.html)
+* [SQLite](https://www.sqlite.org/json1.html)
 
 ## More
 
@@ -164,6 +177,9 @@ Not like JSON, but related to it.
     > Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.
 
     <cite>Douglas Crockford</cite>
+
+* [Subsume JSON](https://github.com/tc39/proposal-json-superset) A proposal to extend ECMA-262 syntax into a
+   superset of JSON.
 
 ## Blue?
 

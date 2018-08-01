@@ -59,10 +59,15 @@
 <li><a href="https://www.w3.org/TR/covjson-overview/">CoverageJSON</a> is a data format for describing “coverage” data in JavaScript Object Notation (JSON), and provides an overview of its design and capabilities.</li>
 <li><a href="netjson.org/">NetJSON</a> is a data interchange format based on JavaScript Object Notation (JSON) designed to describe the basic building blocks of layer2 and layer3 networking.</li>
 </ul>
-<h3 id="json-schema">JSON Schema</h3>
+<h3 id="valdation">Valdation</h3>
 <ul>
 <li><a href="http://json-schema.org/">JSON Schema</a> is a vocabulary that allows you to annotate and validate JSON documents. <a href="http://json-schema.org/implementations.html">Implementations</a>.</li>
 <li><a href="https://github.com/adobe/jsonschema2md">JSON Schema Markdown Tools</a> makes it easier by providing a number of scripts that can turn JSON Schema files into readable Markdown documentation that is ready for consumption on GitHub or processed using Jekyll or other static site generators.</li>
+<li><a href="https://www.tjson.org/">TJSON(Tagged JSON)</a> s a tagging scheme/microformat for enriching the types that can be stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already commonly used for processing JSON into a schema-free, self-describing format.</li>
+</ul>
+<h3 id="encryption">Encryption</h3>
+<ul>
+<li><a href="https://github.com/benlaurie/objecthash">objecthash</a> A way to cryptographically hash objects (in the JSON-ish sense) that works cross-language. And, therefore, cross-encoding.</li>
 </ul>
 <h2 id="variant-format">Variant Format</h2>
 <p>Formats Like JSON.</p>
@@ -103,6 +108,7 @@
 <li><a href="http://stateless.co/hal_specification.html">HAL(Hypertext Application Language)</a> is a simple format that gives a consistent and easy way to hyperlink between resources in your API.</li>
 <li><a href="https://github.com/collection-json/spec">Collection+JSON</a> is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.</li>
 <li><a href="https://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html">OData JSON Format</a></li>
+<li><a href="http://netflix.github.io/falcor/documentation/jsongraph.html">JSON Graph</a> is a convention for modeling graph information as a JSON object. Applications that use Falcor represent all their domain data as a single JSON Graph object.</li>
 </ul>
 <h2 id="tool">Tool</h2>
 <h2 id="application">Application</h2>
@@ -122,7 +128,9 @@
 <ul>
 <li><a href="https://www.mongodb.com/">MongoDB</a></li>
 <li><a href="http://couchdb.apache.org/">CouchDB</a></li>
-<li><a href="https://www.postgresql.org/docs/10/static/datatype-json.html">PostgreDB</a></li>
+<li><a href="https://www.postgresql.org/docs/10/static/datatype-json.html">PostgreDB</a>,</li>
+<li><a href="https://www.postgresql.org/docs/9.5/static/functions-json.html">functions and operators</a></li>
+<li><a href="https://www.sqlite.org/json1.html">SQLite</a></li>
 </ul>
 <h2 id="more">More</h2>
 <h3 id="history">History</h3>
@@ -134,6 +142,7 @@
 <p>Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.</p>
 </blockquote>
 <p><cite>Douglas Crockford</cite></p></li>
+<li><p><a href="https://github.com/tc39/proposal-json-superset">Subsume JSON</a> A proposal to extend ECMA-262 syntax into a superset of JSON.</p></li>
 </ul>
 <h2 id="blue">Blue?</h2>
 <p>Its hard to find a good domain available. And I love the color blue. Also, I am a fan of Dragon Ball. Super Saiyan Blue is very powerful. So I take the name.</p>
