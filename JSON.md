@@ -189,6 +189,7 @@ Not Similar to JSON, but related to it.
 
 ### Article
 
+* [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.php)
 * [JSON as configuration files: please don’t](https://arp242.net/weblog/json_as_configuration_files-_please_dont?)
 
 ### ECMAScript
