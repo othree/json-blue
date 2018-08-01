@@ -185,6 +185,15 @@ Not Similar to JSON, but related to it.
 
 * [reddit r/json](https://www.reddit.com/r/json/)
 
+### Article
+
+* [JSON as configuration files: please don’t](https://arp242.net/weblog/json_as_configuration_files-_please_dont?)
+
+### ECMAScript
+
+* [Subsume JSON](https://github.com/tc39/proposal-json-superset) A proposal to extend ECMA-262 syntax into a
+   superset of JSON.
+
 ### History
 
 * [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) 
@@ -196,9 +205,6 @@ Not Similar to JSON, but related to it.
     > Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.
 
     <cite>Douglas Crockford</cite>
-
-* [Subsume JSON](https://github.com/tc39/proposal-json-superset) A proposal to extend ECMA-262 syntax into a
-   superset of JSON.
 
 
 ## Blue?
