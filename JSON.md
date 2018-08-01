@@ -177,7 +177,7 @@ Not Similar to JSON, but related to it.
 * [MongoDB](https://www.mongodb.com/)
 * [CouchDB](http://couchdb.apache.org/)
 * [PostgreDB](https://www.postgresql.org/docs/10/static/datatype-json.html), 
-* [functions and operators](https://www.postgresql.org/docs/9.5/static/functions-json.html)
+   [functions and operators](https://www.postgresql.org/docs/9.5/static/functions-json.html)
 * [SQLite](https://www.sqlite.org/json1.html)
 
 
