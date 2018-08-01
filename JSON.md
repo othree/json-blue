@@ -15,7 +15,7 @@ application and some history document. IF you found anything missing and deserve
 * [Protocol](#protocol)
 * [Tool](#tool)
 * [Application](#application)
-* [Database](#db)
+* [Database](#database)
 * [More](#more)
 
 
@@ -174,7 +174,7 @@ Not Similar to JSON, but related to it.
 * [PASETO](https://paseto.io/) is everything you love about JOSE (JWT, JWE, JWS) without any of the many designed
    deficits that plague the JOSE standards. 
 
-## DB
+## Database
 
 * [MongoDB](https://www.mongodb.com/)
 * [CouchDB](http://couchdb.apache.org/)
