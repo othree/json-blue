@@ -81,7 +81,7 @@ Interchange Syntax
 
 ## Variant Format
 
-Formats Like JSON.
+Formats Similar to JSON.
 
 * [Hjson](http://hjson.org/) is a syntax extension to JSON. It's NOT a proposal to replace JSON or to incorporate
    it into the JSON spec itself. It's intended to be used like a user interface for humans, to read and edit
@@ -105,7 +105,7 @@ Formats Like JSON.
 
 ## Related Format
 
-Not like JSON, but related to it.
+Not Similar to JSON, but related to it.
 
 ### Binary
 
