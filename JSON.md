@@ -161,6 +161,7 @@ Not like JSON, but related to it.
 
 #### What is JOSE
 
+* [Charter for Working Group](https://datatracker.ietf.org/wg/jose/charter/)
 * [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
 
