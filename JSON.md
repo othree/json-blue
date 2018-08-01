@@ -158,6 +158,7 @@ Not like JSON, but related to it.
 * [RFC 7517](https://tools.ietf.org/html/rfc7517) JSON Web Key
 * [RFC 7518](https://tools.ietf.org/html/rfc7518) JSON Web Algorithm
 * [RFC 7519](https://tools.ietf.org/html/rfc7519) JSON Web Token
+* [JWT, JWS, JWE, JWK, and JWA Implementations](https://openid.net/developers/jwt/) A list maintained by OpenID foundation.
 
 #### What is JOSE
 
