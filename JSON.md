@@ -1,10 +1,11 @@
 # JSON Blue
 
-A place to collect stuff related to JSON
+A place to collect stuff related to JSON  
 
 This is JSON Blue, a small website to collect JSON stuff. Including standard document, variant data format, tools,
 application and some history document. IF you found anything missing and deserver to list on here. Please 
 [report an issue](https://github.com/othree/json-blue/issues) on GitHub.
+
 
 ### Table of Contents
 
@@ -24,6 +25,7 @@ application and some history document. IF you found anything missing and deserve
 ### JSON Specs
 
 * [JSON](http://json.org/) by Douglas Crockford. Also have a list of implementations in different languages.
+* [Logo](https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg)
 * [ECMA 404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf) The JSON Data 
 Interchange Syntax
 * [RFC 4627](https://tools.ietf.org/html/rfc4627)
