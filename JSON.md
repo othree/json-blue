@@ -75,6 +75,7 @@ Interchange Syntax
 
 ### Encryption
 
+* [JOSE](#jose-json-object-signing-and-encryption-working-group)
 * [objecthash](https://github.com/benlaurie/objecthash) A way to cryptographically hash objects (in the JSON-ish
    sense) that works cross-language. And, therefore, cross-encoding.
 
