@@ -159,12 +159,18 @@ Not like JSON, but related to it.
 * [RFC 7518](https://tools.ietf.org/html/rfc7518) JSON Web Algorithm
 * [RFC 7519](https://tools.ietf.org/html/rfc7519) JSON Web Token
 * [JWT, JWS, JWE, JWK, and JWA Implementations](https://openid.net/developers/jwt/) A list maintained by OpenID foundation.
+* <https://jwt.io/> allows you to decode, verify and generate JWT. Also have a list of implementations.
 
 #### What is JOSE
 
 * [Charter for Working Group](https://datatracker.ietf.org/wg/jose/charter/)
+* [Critical vulnerabilities in JSON Web Token libraries](https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/)
 * [JSON Web Token](https://blog.othree.net/log/2016/08/13/json-web-token/) in Chinese
 
+#### Alternative
+
+* [PASETO](https://paseto.io/) is everything you love about JOSE (JWT, JWE, JWS) without any of the many designed
+   deficits that plague the JOSE standards. 
 
 ## DB
 
