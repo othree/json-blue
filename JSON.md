@@ -111,6 +111,10 @@ Formats Similar to JSON.
 
 Not Similar to JSON, but related to it.
 
+* [Mark](https://github.com/henry-luo/mark) is a new unified notation for both object and markup data.
+   The notation is a superset of what can be represented by JSON, HTML and XML, but overcomes many 
+   limitations these popular data formats, yet still having a very clean syntax and simple data model.
+
 ### Binary
 
 * [MessagePack](https://msgpack.org/) is an efficient binary serialization format. It lets you exchange data 
