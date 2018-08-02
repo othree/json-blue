@@ -156,6 +156,17 @@ Not Similar to JSON, but related to it.
 
 ## Tool
 
+* [JSONiq](http://jsoniq.org/) is a query and processing language specifically designed for the popular JSON
+   data model.
+* [JSONDiffPatch](https://benjamine.github.io/jsondiffpatch/demo/index.html)
+* [JSONLint](https://jsonlint.com/)
+* [JSON Formatter](https://jsonformatter.curiousconcept.com/) was created to help with debugging. As JSON data
+   is often output without line breaks to save space, it is extremely difficult to actually read and make sense
+   of it.
+* [jq](https://stedolan.github.io/jq/) is like sed for JSON data - you can use it to slice and filter and map
+   and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
+* [gron](https://github.com/tomnomnom/gron) transforms JSON into discrete assignments to make it easier to grep
+   for what you want and see the absolute 'path' to it.
 
 ## Application
 
