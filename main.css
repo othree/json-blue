@@ -100,3 +100,11 @@ p cite:only-child {
   display: block;
   text-align: right;
 }
+
+footer {
+  margin: 64px auto 0;
+  border-radius: 4px 4px 0 0;
+  max-width: 960px;
+  padding: 6px 10px;
+  background: #eee;
+}
