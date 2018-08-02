@@ -3,7 +3,7 @@
 A place to collect stuff related to JSON  
 
 This is JSON Blue, a small website to collect JSON stuff. Including standard document, variant data format, tools,
-application and some history document. IF you found anything missing and deserver to list on here. Please 
+application and some history document. If you found anything missing and deserver to list on here. Please 
 [report an issue](https://github.com/othree/json-blue/issues) on GitHub.
 
 
