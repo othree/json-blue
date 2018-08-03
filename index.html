@@ -45,7 +45,7 @@
 </ul>
 <h3 id="more-at-rfc">More at RFC</h3>
 <ul>
-<li><a href="https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=JSON&amp;pubstatus[]=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC">Search JSON at RFC Editor</a></li>
+<li><a href="https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=JSON&amp;pubstatus%5B%5D=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC">Search JSON at RFC Editor</a></li>
 </ul>
 <h2 id="data-in-json-format">Data in JSON Format</h2>
 <ul>
@@ -74,7 +74,7 @@
 <h2 id="variant-format">Variant Format</h2>
 <p>Formats Similar to JSON.</p>
 <ul>
-<li><a href="http://hjson.org/">Hjson</a> is a syntax extension to JSON. It's NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It's intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.</li>
+<li><a href="http://hjson.org/">Hjson</a> is a syntax extension to JSON. It’s NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It’s intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.</li>
 <li><a href="https://code.google.com/archive/p/rson/">RSON</a> file format is easy to edit, diff, and version control, that is a superset of JSON and smaller than YAML.</li>
 <li><a href="https://pypi.org/project/rsonlite/0.1.0/">rsonlite</a> is the easiest way to create custom indented data file formats in Python. It is a single small module that can be shipped with your application, or it can be easy-installed or pipped from PyPI.</li>
 <li><a href="https://github.com/MaiaVictor/LJSON">LJSON</a> JSON extended with pure functions.</li>
@@ -122,7 +122,7 @@
 <li><a href="https://jsonlint.com/">JSONLint</a></li>
 <li><a href="https://jsonformatter.curiousconcept.com/">JSON Formatter</a> was created to help with debugging. As JSON data is often output without line breaks to save space, it is extremely difficult to actually read and make sense of it.</li>
 <li><a href="https://stedolan.github.io/jq/">jq</a> is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.</li>
-<li><a href="https://github.com/tomnomnom/gron">gron</a> transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute 'path' to it.</li>
+<li><a href="https://github.com/tomnomnom/gron">gron</a> transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute ‘path’ to it.</li>
 </ul>
 <h2 id="application">Application</h2>
 <h3 id="jose-json-object-signing-and-encryption-working-group">JOSE (JSON Object Signing and Encryption) Working Group</h3>
@@ -170,7 +170,7 @@
 <li><p><a href="https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Comments in JSON</a></p>
 <blockquote>
 <p><strong>Comments in JSON</strong></p>
-<p>I removed comments from JSON because I saw people were using them to hold parsing directives, a practice which would have destroyed interoperability. I know that the lack of comments makes some people sad, but it shouldn't.</p>
+<p>I removed comments from JSON because I saw people were using them to hold parsing directives, a practice which would have destroyed interoperability. I know that the lack of comments makes some people sad, but it shouldn’t.</p>
 <p>Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.</p>
 </blockquote>
 <p><cite>Douglas Crockford</cite></p></li>
@@ -183,5 +183,15 @@
     <footer>
       A site by <a href="https://othree.net">othree</a>.
     </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123337918-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-123337918-1');
+    </script>
+
   </body>
 </html>
