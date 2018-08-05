@@ -105,6 +105,8 @@ Formats Similar to JSON.
    ECMAScript 5.1.
 * [HOCON(Human-Optimized Config Object Notation)](https://github.com/lightbend/config/blob/master/HOCON.md) is 
    a format for human-readable data, and a superset of JSON and .properties.
+* [Rison](https://rison.io/) is a data format focus on URL friendly and compact. The structure is like JSON, 
+*  but use different character for notation.
 
 
 ## Related Format
