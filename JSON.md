@@ -141,8 +141,8 @@ Not Similar to JSON, but related to it.
 
 ### General
 
-* [YAML](http://yaml.org/)
-* [TOML](https://github.com/toml-lang/toml)
+* [YAML](http://yaml.org/) is a human-readable data serialization language.
+* [TOML](https://github.com/toml-lang/toml) aims to be a minimal configuration file format that's easy to read due to obvious semantics.
 
 ## Protocol
 
@@ -215,6 +215,7 @@ Not Similar to JSON, but related to it.
 * [The Rise and Rise of JSON ](https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html)
 * [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.php)
 * [JSON as configuration files: please don’t](https://arp242.net/weblog/json_as_configuration_files-_please_dont)
+* [JSON Universe](https://blog.othree.net/log/2016/01/11/json-universe/) in Chinese
 
 ### ECMAScript
 
