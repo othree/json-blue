@@ -139,6 +139,10 @@ Not Similar to JSON, but related to it.
 * [MSON](https://github.com/apiaryio/mson) is a plain-text, human and machine readable, description format 
    for describing data structures in common markup formats such as JSON, XML or YAML.
 
+### General
+
+* [YAML](http://yaml.org/)
+* [TOML](https://github.com/toml-lang/toml)
 
 ## Protocol
 
@@ -208,8 +212,9 @@ Not Similar to JSON, but related to it.
 
 ### Article
 
+* [The Rise and Rise of JSON ](https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html)
 * [Parsing JSON is a Minefield 💣](http://seriot.ch/parsing_json.php)
-* [JSON as configuration files: please don’t](https://arp242.net/weblog/json_as_configuration_files-_please_dont?)
+* [JSON as configuration files: please don’t](https://arp242.net/weblog/json_as_configuration_files-_please_dont)
 
 ### ECMAScript
 
