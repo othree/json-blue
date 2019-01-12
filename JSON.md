@@ -173,6 +173,8 @@ Not Similar to JSON, but related to it.
    and transform structured data with the same ease that sed, awk, grep and friends let you play with text.
 * [gron](https://github.com/tomnomnom/gron) transforms JSON into discrete assignments to make it easier to grep
    for what you want and see the absolute 'path' to it.
+* [JSON Generator](https://www.json-generator.com/) tool for generate random JSON data.
+* [fx](https://github.com/antonmedv/fx) is another command-line JSON processing tool.
 
 ## Application
 
