@@ -64,6 +64,8 @@ Interchange Syntax
    JavaScript Object Notation (JSON), and provides an overview of its design and capabilities.
 * [NetJSON](netjson.org/) is a data interchange format based on JavaScript Object Notation (JSON) designed to
    describe the basic building blocks of layer2 and layer3 networking.
+* [OpenAPI](https://github.com/OAI/OpenAPI-Specification) defines a standard, programming language-agnostic 
+   interface description for REST APIs
 
 ### Valdation
 
