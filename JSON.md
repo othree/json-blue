@@ -228,7 +228,7 @@ Not Similar to JSON, but related to it.
 
 ### History
 
-* [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) 
+* [Comments in JSON](https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr) exists [at first](https://web.archive.org/web/20030228034147/http://www.crockford.com/JSON/index.html)
 
     > **Comments in JSON**
     >
@@ -238,6 +238,7 @@ Not Similar to JSON, but related to it.
 
     <cite>Douglas Crockford</cite>
 
+* [Discovering JavaScript Object Notation with Douglas Crockford](https://www.youtube.com/watch?v=kc8BAR7SHJI)
 
 ## Blue?
 
