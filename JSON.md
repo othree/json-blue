@@ -66,6 +66,7 @@ Interchange Syntax
    describe the basic building blocks of layer2 and layer3 networking.
 * [OpenAPI](https://github.com/OAI/OpenAPI-Specification) defines a standard, programming language-agnostic 
    interface description for REST APIs
+* [JSON Feed](https://jsonfeed.org/) a format similar to RSS and Atom but in JSON.
 
 ### Valdation
 
