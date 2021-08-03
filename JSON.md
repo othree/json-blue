@@ -39,6 +39,8 @@ Interchange Syntax
 * [RFC 6901](https://tools.ietf.org/html/rfc6901) JSON Pointer
 * [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patch
 * [RFC 7396](https://tools.ietf.org/html/rfc7396) JSON Merge Patch
+* [RFC 8927](https://tools.ietf.org/html/rfc8927) [JSON Typedef](https://jsontypedef.com/)
+* [JSON Schema](https://json-schema.org/)
 
 ### More at RFC
 
@@ -178,6 +180,8 @@ Not Similar to JSON, but related to it.
    for what you want and see the absolute 'path' to it.
 * [JSON Generator](https://www.json-generator.com/) tool for generate random JSON data.
 * [fx](https://github.com/antonmedv/fx) is another command-line JSON processing tool.
+* [Ajv](https://ajv.js.org/) JSON validation tool supports JSON Schema and JSON Typedef
+* [JSON Typedef tools](https://jsontypedef.com/docs/)
 
 ## Application
 
