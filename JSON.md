@@ -176,6 +176,7 @@ Not Similar to JSON, but related to it.
 - [fx](https://github.com/antonmedv/fx) is another command-line JSON processing tool.
 - [Ajv](https://ajv.js.org/) JSON validation tool supports JSON Schema and JSON Typedef
 - [JSON Typedef tools](https://jsontypedef.com/docs/)
+- [jless](https://jless.io/)
 
 ## Application
 
