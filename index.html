@@ -14,7 +14,11 @@
 
 <h1 id="json-blue">JSON Blue</h1>
 <p>A place to collect stuff related to JSON</p>
-<p>This is JSON Blue, a small website to collect JSON stuff. Including standard document, variant data format, tools, application and some history document. If you found anything missing and deserver to list on here. Please <a href="https://github.com/othree/json-blue/issues">report an issue</a> on GitHub.</p>
+<p>This is JSON Blue, a small website to collect JSON stuff. Including
+standard document, variant data format, tools, application and some
+history document. If you found anything missing and deserver to list on
+here. Please <a href="https://github.com/othree/json-blue/issues">report
+an issue</a> on GitHub.</p>
 <h3 id="table-of-contents">Table of Contents</h3>
 <ul>
 <li><a href="#specification">Specification</a></li>
@@ -30,141 +34,279 @@
 <h2 id="specification">Specification</h2>
 <h3 id="json-specs">JSON Specs</h3>
 <ul>
-<li><a href="http://json.org/">JSON</a> by Douglas Crockford. Also have a list of implementations in different languages.</li>
-<li><a href="https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg">Logo</a></li>
-<li><a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA 404</a> The JSON Data Interchange Syntax</li>
+<li><a href="http://json.org/">JSON</a> by Douglas Crockford. Also have
+a list of implementations in different languages.</li>
+<li><a
+href="https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg">Logo</a></li>
+<li><a
+href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf">ECMA
+404</a> The JSON Data Interchange Syntax</li>
 <li><a href="https://tools.ietf.org/html/rfc4627">RFC 4627</a></li>
-<li><a href="https://tools.ietf.org/html/rfc7493">RFC 7493</a> I-JSON(Internet JSON) is a restricted profile of JSON designed to maximize interoperability and increase confidence that software can process it successfully with predictable results.</li>
-<li><a href="https://tools.ietf.org/html/rfc8259">RFC 8259/STD90</a> Story of this RFC: <a href="https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90">The Last JSON Spec</a></li>
+<li><a href="https://tools.ietf.org/html/rfc7493">RFC 7493</a>
+I-JSON(Internet JSON) is a restricted profile of JSON designed to
+maximize interoperability and increase confidence that software can
+process it successfully with predictable results.</li>
+<li><a href="https://tools.ietf.org/html/rfc8259">RFC 8259/STD90</a>
+Story of this RFC: <a
+href="https://www.tbray.org/ongoing/When/201x/2017/12/14/RFC-8259-STD-90">The
+Last JSON Spec</a></li>
 </ul>
 <h3 id="other-specs-related-to-json">Other Specs Related to JSON</h3>
 <ul>
-<li><a href="https://tools.ietf.org/html/rfc6901">RFC 6901</a> JSON Pointer</li>
-<li><a href="https://tools.ietf.org/html/rfc6902">RFC 6902</a> JSON Patch</li>
-<li><a href="https://tools.ietf.org/html/rfc7396">RFC 7396</a> JSON Merge Patch</li>
-<li><a href="https://tools.ietf.org/html/rfc8927">RFC 8927</a> <a href="https://jsontypedef.com/">JSON Typedef</a></li>
+<li><a href="https://tools.ietf.org/html/rfc6901">RFC 6901</a> JSON
+Pointer</li>
+<li><a href="https://tools.ietf.org/html/rfc6902">RFC 6902</a> JSON
+Patch</li>
+<li><a href="https://tools.ietf.org/html/rfc7396">RFC 7396</a> JSON
+Merge Patch</li>
+<li><a href="https://tools.ietf.org/html/rfc8927">RFC 8927</a> <a
+href="https://jsontypedef.com/">JSON Typedef</a></li>
 <li><a href="https://json-schema.org/">JSON Schema</a></li>
 </ul>
 <h3 id="more-at-rfc">More at RFC</h3>
 <ul>
-<li><a href="https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=JSON&amp;pubstatus%5B%5D=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC">Search JSON at RFC Editor</a></li>
+<li><a
+href="https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&amp;title=JSON&amp;pubstatus%5B%5D=Any&amp;pub_date_type=any&amp;sortkey=Number&amp;sorting=ASC">Search
+JSON at RFC Editor</a></li>
 </ul>
 <h2 id="data-in-json-format">Data in JSON Format</h2>
 <ul>
-<li><a href="https://tools.ietf.org/html/rfc7095">RFC 7095</a> jCard: The JSON Format for vCard</li>
-<li><a href="https://tools.ietf.org/html/rfc7265">RFC 7265</a> jCal: The JSON Format for iCalendar</li>
-<li><a href="https://tools.ietf.org/html/rfc7946">RFC 7946</a> <a href="http://geojson.org/">GeoJSON</a> is a format for encoding a variety of geographic data structures.</li>
-<li><a href="https://github.com/topojson/topojson">TopoJSON</a> is an extension of GeoJSON that encodes topology.</li>
-<li><a href="https://json-ld.org/">JSON-LD</a> is a lightweight Linked Data format.</li>
-<li><a href="https://json-stat.org/">JSON-stat</a> is a simple lightweight JSON dissemination format best suited for data visualization, mobile apps or open data initiatives, that has been designed for all kinds of disseminators.</li>
-<li><a href="https://www.i18next.com/misc/json-format">i18n next JSON</a> i18next is an internationalization-framework written in and for JavaScript.</li>
-<li><a href="https://www.w3.org/TR/sparql11-results-json/">SPARQL</a> is a set of standards for the query and update of RDF data, along with ways to access such data over the web. This document describes the representation of SELECT and ASK query results using JSON.</li>
-<li><a href="https://www.w3.org/TR/covjson-overview/">CoverageJSON</a> is a data format for describing “coverage” data in JavaScript Object Notation (JSON), and provides an overview of its design and capabilities.</li>
-<li><a href="netjson.org/">NetJSON</a> is a data interchange format based on JavaScript Object Notation (JSON) designed to describe the basic building blocks of layer2 and layer3 networking.</li>
-<li><a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI</a> defines a standard, programming language-agnostic interface description for REST APIs</li>
-<li><a href="https://jsonfeed.org/">JSON Feed</a> a format similar to RSS and Atom but in JSON.</li>
+<li><a href="https://tools.ietf.org/html/rfc7095">RFC 7095</a> jCard:
+The JSON Format for vCard</li>
+<li><a href="https://tools.ietf.org/html/rfc7265">RFC 7265</a> jCal: The
+JSON Format for iCalendar</li>
+<li><a href="https://tools.ietf.org/html/rfc7946">RFC 7946</a> <a
+href="http://geojson.org/">GeoJSON</a> is a format for encoding a
+variety of geographic data structures.</li>
+<li><a href="https://github.com/topojson/topojson">TopoJSON</a> is an
+extension of GeoJSON that encodes topology.</li>
+<li><a href="https://json-ld.org/">JSON-LD</a> is a lightweight Linked
+Data format.</li>
+<li><a href="https://json-stat.org/">JSON-stat</a> is a simple
+lightweight JSON dissemination format best suited for data
+visualization, mobile apps or open data initiatives, that has been
+designed for all kinds of disseminators.</li>
+<li><a href="https://www.i18next.com/misc/json-format">i18n next
+JSON</a> i18next is an internationalization-framework written in and for
+JavaScript.</li>
+<li><a href="https://www.w3.org/TR/sparql11-results-json/">SPARQL</a> is
+a set of standards for the query and update of RDF data, along with ways
+to access such data over the web. This document describes the
+representation of SELECT and ASK query results using JSON.</li>
+<li><a href="https://www.w3.org/TR/covjson-overview/">CoverageJSON</a>
+is a data format for describing “coverage” data in JavaScript Object
+Notation (JSON), and provides an overview of its design and
+capabilities.</li>
+<li><a href="netjson.org/">NetJSON</a> is a data interchange format
+based on JavaScript Object Notation (JSON) designed to describe the
+basic building blocks of layer2 and layer3 networking.</li>
+<li><a href="https://github.com/OAI/OpenAPI-Specification">OpenAPI</a>
+defines a standard, programming language-agnostic interface description
+for REST APIs</li>
+<li><a href="https://jsonfeed.org/">JSON Feed</a> a format similar to
+RSS and Atom but in JSON.</li>
+<li><a href="https://github.com/obsidianmd/jsoncanvas">JSON Canvas</a>
+an open file format for infinite canvas data.</li>
 </ul>
 <h3 id="valdation">Valdation</h3>
 <ul>
-<li><a href="http://json-schema.org/">JSON Schema</a> is a vocabulary that allows you to annotate and validate JSON documents. <a href="http://json-schema.org/implementations.html">Implementations</a>.</li>
-<li><a href="https://github.com/adobe/jsonschema2md">JSON Schema Markdown Tools</a> makes it easier by providing a number of scripts that can turn JSON Schema files into readable Markdown documentation that is ready for consumption on GitHub or processed using Jekyll or other static site generators.</li>
-<li><a href="https://www.tjson.org/">TJSON(Tagged JSON)</a> s a tagging scheme/microformat for enriching the types that can be stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already commonly used for processing JSON into a schema-free, self-describing format.</li>
+<li><a href="http://json-schema.org/">JSON Schema</a> is a vocabulary
+that allows you to annotate and validate JSON documents. <a
+href="http://json-schema.org/implementations.html">Implementations</a>.</li>
+<li><a href="https://github.com/adobe/jsonschema2md">JSON Schema
+Markdown Tools</a> makes it easier by providing a number of scripts that
+can turn JSON Schema files into readable Markdown documentation that is
+ready for consumption on GitHub or processed using Jekyll or other
+static site generators.</li>
+<li><a href="https://www.tjson.org/">TJSON(Tagged JSON)</a> s a tagging
+scheme/microformat for enriching the types that can be stored in JSON
+documents. It augments the existing types present in JSON, codifiying ad
+hoc practices already commonly used for processing JSON into a
+schema-free, self-describing format.</li>
 </ul>
 <h3 id="encryption">Encryption</h3>
 <ul>
-<li><a href="#jose-json-object-signing-and-encryption-working-group">JOSE</a></li>
-<li><a href="https://github.com/benlaurie/objecthash">objecthash</a> A way to cryptographically hash objects (in the JSON-ish sense) that works cross-language. And, therefore, cross-encoding.</li>
+<li><a
+href="#jose-json-object-signing-and-encryption-working-group">JOSE</a></li>
+<li><a href="https://github.com/benlaurie/objecthash">objecthash</a> A
+way to cryptographically hash objects (in the JSON-ish sense) that works
+cross-language. And, therefore, cross-encoding.</li>
 </ul>
 <h2 id="variant-format">Variant Format</h2>
 <p>Formats Similar to JSON.</p>
 <ul>
-<li><a href="http://hjson.org/">Hjson</a> is a syntax extension to JSON. It’s NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It’s intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.</li>
-<li><a href="https://code.google.com/archive/p/rson/">RSON</a> file format is easy to edit, diff, and version control, that is a superset of JSON and smaller than YAML.</li>
-<li><a href="https://pypi.org/project/rsonlite/0.1.0/">rsonlite</a> is the easiest way to create custom indented data file formats in Python. It is a single small module that can be shipped with your application, or it can be easy-installed or pipped from PyPI.</li>
-<li><a href="https://github.com/MaiaVictor/LJSON">LJSON</a> JSON extended with pure functions.</li>
-<li><a href="https://github.com/daviddengcn/ljson">LJSON(Loose JSON)</a> a superset of JSON with a loose format requirement.</li>
-<li><a href="http://jsonlines.org/">JSON Lines</a> also called newline-delimited JSON. JSON Lines is a convenient format for storing structured data that may be processed one record at a time.</li>
-<li><a href="https://jsonnet.org/">Jsonnet</a> A data templating language for app and tool developers.</li>
-<li><a href="https://json5.org/">JSON5</a> The JSON5 Data Interchange Format (JSON5) is a superset of JSON that aims to alleviate some of the limitations of JSON by expanding its syntax to include some productions from ECMAScript 5.1.</li>
-<li><a href="https://github.com/lightbend/config/blob/master/HOCON.md">HOCON(Human-Optimized Config Object Notation)</a> is a format for human-readable data, and a superset of JSON and .properties.</li>
-<li><a href="https://rison.io/">Rison</a> is a data format focus on URL friendly and compact. The structure is like JSON, but use different character for notation.</li>
+<li><a href="http://hjson.org/">Hjson</a> is a syntax extension to JSON.
+It’s NOT a proposal to replace JSON or to incorporate it into the JSON
+spec itself. It’s intended to be used like a user interface for humans,
+to read and edit before passing the JSON data to the machine.</li>
+<li><a href="https://code.google.com/archive/p/rson/">RSON</a> file
+format is easy to edit, diff, and version control, that is a superset of
+JSON and smaller than YAML.</li>
+<li><a href="https://pypi.org/project/rsonlite/0.1.0/">rsonlite</a> is
+the easiest way to create custom indented data file formats in Python.
+It is a single small module that can be shipped with your application,
+or it can be easy-installed or pipped from PyPI.</li>
+<li><a href="https://github.com/MaiaVictor/LJSON">LJSON</a> JSON
+extended with pure functions.</li>
+<li><a href="https://github.com/daviddengcn/ljson">LJSON(Loose JSON)</a>
+a superset of JSON with a loose format requirement.</li>
+<li><a href="http://jsonlines.org/">JSON Lines</a> also called
+newline-delimited JSON. JSON Lines is a convenient format for storing
+structured data that may be processed one record at a time.</li>
+<li><a href="https://jsonnet.org/">Jsonnet</a> A data templating
+language for app and tool developers.</li>
+<li><a href="https://json5.org/">JSON5</a> The JSON5 Data Interchange
+Format (JSON5) is a superset of JSON that aims to alleviate some of the
+limitations of JSON by expanding its syntax to include some productions
+from ECMAScript 5.1.</li>
+<li><a
+href="https://github.com/lightbend/config/blob/master/HOCON.md">HOCON(Human-Optimized
+Config Object Notation)</a> is a format for human-readable data, and a
+superset of JSON and .properties.</li>
+<li><a href="https://rison.io/">Rison</a> is a data format focus on URL
+friendly and compact. The structure is like JSON, but use different
+character for notation.</li>
 </ul>
 <h2 id="related-format">Related Format</h2>
 <p>Not Similar to JSON, but related to it.</p>
 <ul>
-<li><a href="https://github.com/henry-luo/mark">Mark</a> is a new unified notation for both object and markup data. The notation is a superset of what can be represented by JSON, HTML and XML, but overcomes many limitations these popular data formats, yet still having a very clean syntax and simple data model.</li>
+<li><a href="https://github.com/henry-luo/mark">Mark</a> is a new
+unified notation for both object and markup data. The notation is a
+superset of what can be represented by JSON, HTML and XML, but overcomes
+many limitations these popular data formats, yet still having a very
+clean syntax and simple data model.</li>
 </ul>
 <h3 id="binary">Binary</h3>
 <ul>
-<li><a href="https://msgpack.org/">MessagePack</a> is an efficient binary serialization format. It lets you exchange data among multiple languages like JSON.</li>
-<li><a href="http://bsonspec.org/">BSON</a> short for Bin­ary JSON, is a bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments.</li>
+<li><a href="https://msgpack.org/">MessagePack</a> is an efficient
+binary serialization format. It lets you exchange data among multiple
+languages like JSON.</li>
+<li><a href="http://bsonspec.org/">BSON</a> short for Bin­ary JSON, is a
+bin­ary-en­coded seri­al­iz­a­tion of JSON-like doc­u­ments.</li>
 <li><a href="http://bjson.org/">BJSON</a> is binary form of JSON.</li>
-<li><a href="http://ubjson.org/">UBJSON(Universal Binary JSON)</a> The universally compatible format specification for binary JSON.</li>
+<li><a href="http://ubjson.org/">UBJSON(Universal Binary JSON)</a> The
+universally compatible format specification for binary JSON.</li>
 </ul>
 <h3 id="xml">XML</h3>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Archive/JXON">JXON (lossless JavaScript XML Object Notation)</a> is a generic name by which is defined the representation of JavaScript Objects using XML.</li>
-<li><a href="https://www.ibm.com/support/knowledgecenter/SS9H2Y_7.1.0/com.ibm.dp.doc/json_jsonx.html">JSONx</a> is an IBM® standard format to represent JSON as XML.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Archive/JXON">JXON
+(lossless JavaScript XML Object Notation)</a> is a generic name by which
+is defined the representation of JavaScript Objects using XML.</li>
+<li><a
+href="https://www.ibm.com/support/knowledgecenter/SS9H2Y_7.1.0/com.ibm.dp.doc/json_jsonx.html">JSONx</a>
+is an IBM® standard format to represent JSON as XML.</li>
 </ul>
 <h3 id="markdown">Markdown</h3>
 <ul>
-<li><a href="https://github.com/apiaryio/mson">MSON</a> is a plain-text, human and machine readable, description format for describing data structures in common markup formats such as JSON, XML or YAML.</li>
+<li><a href="https://github.com/apiaryio/mson">MSON</a> is a plain-text,
+human and machine readable, description format for describing data
+structures in common markup formats such as JSON, XML or YAML.</li>
 </ul>
 <h3 id="general">General</h3>
 <ul>
-<li><a href="http://yaml.org/">YAML</a> is a human-readable data serialization language.</li>
-<li><a href="https://github.com/toml-lang/toml">TOML</a> aims to be a minimal configuration file format that’s easy to read due to obvious semantics.</li>
+<li><a href="http://yaml.org/">YAML</a> is a human-readable data
+serialization language.</li>
+<li><a href="https://github.com/toml-lang/toml">TOML</a> aims to be a
+minimal configuration file format that’s easy to read due to obvious
+semantics.</li>
 </ul>
 <h2 id="protocol">Protocol</h2>
 <ul>
 <li><a href="http://jsonapi.org/">JSON API</a></li>
-<li><a href="https://www.jsonrpc.org/">JSON-RPC</a> is a stateless, light-weight remote procedure call (RPC) protocol.</li>
-<li><a href="https://en.wikipedia.org/wiki/JSONP">JSONP(JSON with Padding</a> is used to request data from a server residing in a different domain than the client.</li>
-<li><a href="http://stateless.co/hal_specification.html">HAL(Hypertext Application Language)</a> is a simple format that gives a consistent and easy way to hyperlink between resources in your API.</li>
-<li><a href="https://github.com/collection-json/spec">Collection+JSON</a> is a JSON-based read/write hypermedia-type designed to support management and querying of simple collections.</li>
-<li><a href="https://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html">OData JSON Format</a></li>
-<li><a href="http://netflix.github.io/falcor/documentation/jsongraph.html">JSON Graph</a> is a convention for modeling graph information as a JSON object. Applications that use Falcor represent all their domain data as a single JSON Graph object.</li>
+<li><a href="https://www.jsonrpc.org/">JSON-RPC</a> is a stateless,
+light-weight remote procedure call (RPC) protocol.</li>
+<li><a href="https://en.wikipedia.org/wiki/JSONP">JSONP(JSON with
+Padding</a> is used to request data from a server residing in a
+different domain than the client.</li>
+<li><a href="http://stateless.co/hal_specification.html">HAL(Hypertext
+Application Language)</a> is a simple format that gives a consistent and
+easy way to hyperlink between resources in your API.</li>
+<li><a
+href="https://github.com/collection-json/spec">Collection+JSON</a> is a
+JSON-based read/write hypermedia-type designed to support management and
+querying of simple collections.</li>
+<li><a
+href="https://docs.oasis-open.org/odata/odata-json-format/v4.0/os/odata-json-format-v4.0-os.html">OData
+JSON Format</a></li>
+<li><a
+href="http://netflix.github.io/falcor/documentation/jsongraph.html">JSON
+Graph</a> is a convention for modeling graph information as a JSON
+object. Applications that use Falcor represent all their domain data as
+a single JSON Graph object.</li>
 </ul>
 <h2 id="tool">Tool</h2>
 <ul>
-<li><a href="http://jsoniq.org/">JSONiq</a> is a query and processing language specifically designed for the popular JSON data model.</li>
-<li><a href="https://benjamine.github.io/jsondiffpatch/demo/index.html">JSONDiffPatch</a></li>
+<li><a href="http://jsoniq.org/">JSONiq</a> is a query and processing
+language specifically designed for the popular JSON data model.</li>
+<li><a
+href="https://benjamine.github.io/jsondiffpatch/demo/index.html">JSONDiffPatch</a></li>
 <li><a href="https://jsonlint.com/">JSONLint</a></li>
-<li><a href="https://jsonformatter.curiousconcept.com/">JSON Formatter</a> was created to help with debugging. As JSON data is often output without line breaks to save space, it is extremely difficult to actually read and make sense of it.</li>
-<li><a href="https://stedolan.github.io/jq/">jq</a> is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.</li>
-<li><a href="https://github.com/tomnomnom/gron">gron</a> transforms JSON into discrete assignments to make it easier to grep for what you want and see the absolute ‘path’ to it.</li>
-<li><a href="https://www.json-generator.com/">JSON Generator</a> tool for generate random JSON data.</li>
-<li><a href="https://github.com/antonmedv/fx">fx</a> is another command-line JSON processing tool.</li>
-<li><a href="https://ajv.js.org/">Ajv</a> JSON validation tool supports JSON Schema and JSON Typedef</li>
+<li><a href="https://jsonformatter.curiousconcept.com/">JSON
+Formatter</a> was created to help with debugging. As JSON data is often
+output without line breaks to save space, it is extremely difficult to
+actually read and make sense of it.</li>
+<li><a href="https://stedolan.github.io/jq/">jq</a> is like sed for JSON
+data - you can use it to slice and filter and map and transform
+structured data with the same ease that sed, awk, grep and friends let
+you play with text.</li>
+<li><a href="https://github.com/tomnomnom/gron">gron</a> transforms JSON
+into discrete assignments to make it easier to grep for what you want
+and see the absolute ‘path’ to it.</li>
+<li><a href="https://www.json-generator.com/">JSON Generator</a> tool
+for generate random JSON data.</li>
+<li><a href="https://github.com/antonmedv/fx">fx</a> is another
+command-line JSON processing tool.</li>
+<li><a href="https://ajv.js.org/">Ajv</a> JSON validation tool supports
+JSON Schema and JSON Typedef</li>
 <li><a href="https://jsontypedef.com/docs/">JSON Typedef tools</a></li>
 <li><a href="https://jless.io/">jless</a></li>
 </ul>
 <h2 id="application">Application</h2>
-<h3 id="jose-json-object-signing-and-encryption-working-group">JOSE (JSON Object Signing and Encryption) Working Group</h3>
+<h3 id="jose-json-object-signing-and-encryption-working-group">JOSE
+(JSON Object Signing and Encryption) Working Group</h3>
 <ul>
-<li><a href="https://tools.ietf.org/html/rfc7515">RFC 7515</a> JSON Web Signature</li>
-<li><a href="https://tools.ietf.org/html/rfc7516">RFC 7516</a> JSON Web Encryption</li>
-<li><a href="https://tools.ietf.org/html/rfc7517">RFC 7517</a> JSON Web Key</li>
-<li><a href="https://tools.ietf.org/html/rfc7518">RFC 7518</a> JSON Web Algorithm</li>
-<li><a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a> JSON Web Token</li>
-<li><a href="https://openid.net/developers/jwt/">JWT, JWS, JWE, JWK, and JWA Implementations</a> A list maintained by OpenID foundation.</li>
-<li><a href="https://jwt.io/" class="uri">https://jwt.io/</a> allows you to decode, verify and generate JWT. Also have a list of implementations.</li>
+<li><a href="https://tools.ietf.org/html/rfc7515">RFC 7515</a> JSON Web
+Signature</li>
+<li><a href="https://tools.ietf.org/html/rfc7516">RFC 7516</a> JSON Web
+Encryption</li>
+<li><a href="https://tools.ietf.org/html/rfc7517">RFC 7517</a> JSON Web
+Key</li>
+<li><a href="https://tools.ietf.org/html/rfc7518">RFC 7518</a> JSON Web
+Algorithm</li>
+<li><a href="https://tools.ietf.org/html/rfc7519">RFC 7519</a> JSON Web
+Token</li>
+<li><a href="https://openid.net/developers/jwt/">JWT, JWS, JWE, JWK, and
+JWA Implementations</a> A list maintained by OpenID foundation.</li>
+<li><a href="https://jwt.io/" class="uri">https://jwt.io/</a> allows you
+to decode, verify and generate JWT. Also have a list of
+implementations.</li>
 </ul>
 <h4 id="what-is-jose">What is JOSE</h4>
 <ul>
-<li><a href="https://datatracker.ietf.org/wg/jose/charter/">Charter for Working Group</a></li>
-<li><a href="https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/">Critical vulnerabilities in JSON Web Token libraries</a></li>
-<li><a href="https://blog.othree.net/log/2016/08/13/json-web-token/">JSON Web Token</a> in Chinese</li>
+<li><a href="https://datatracker.ietf.org/wg/jose/charter/">Charter for
+Working Group</a></li>
+<li><a
+href="https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries/">Critical
+vulnerabilities in JSON Web Token libraries</a></li>
+<li><a
+href="https://blog.othree.net/log/2016/08/13/json-web-token/">JSON Web
+Token</a> in Chinese</li>
 </ul>
 <h4 id="alternative">Alternative</h4>
 <ul>
-<li><a href="https://paseto.io/">PASETO</a> is everything you love about JOSE (JWT, JWE, JWS) without any of the many designed deficits that plague the JOSE standards.</li>
+<li><a href="https://paseto.io/">PASETO</a> is everything you love about
+JOSE (JWT, JWE, JWS) without any of the many designed deficits that
+plague the JOSE standards.</li>
 </ul>
 <h2 id="database">Database</h2>
 <ul>
 <li><a href="https://www.mongodb.com/">MongoDB</a></li>
 <li><a href="http://couchdb.apache.org/">CouchDB</a></li>
-<li><a href="https://www.postgresql.org/docs/10/static/datatype-json.html">PostgreDB</a>, <a href="https://www.postgresql.org/docs/9.5/static/functions-json.html">functions and operators</a></li>
+<li><a
+href="https://www.postgresql.org/docs/10/static/datatype-json.html">PostgreDB</a>,
+<a
+href="https://www.postgresql.org/docs/9.5/static/functions-json.html">functions
+and operators</a></li>
 <li><a href="https://www.sqlite.org/json1.html">SQLite</a></li>
 </ul>
 <h2 id="more">More</h2>
@@ -173,28 +315,48 @@
 </ul>
 <h3 id="article">Article</h3>
 <ul>
-<li><a href="https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html">The Rise and Rise of JSON</a></li>
-<li><a href="http://seriot.ch/parsing_json.php">Parsing JSON is a Minefield 💣</a></li>
-<li><a href="https://arp242.net/weblog/json_as_configuration_files-_please_dont">JSON as configuration files: please don’t</a></li>
-<li><a href="https://blog.othree.net/log/2016/01/11/json-universe/">JSON Universe</a> in Chinese</li>
+<li><a
+href="https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html">The
+Rise and Rise of JSON</a></li>
+<li><a href="http://seriot.ch/parsing_json.php">Parsing JSON is a
+Minefield 💣</a></li>
+<li><a
+href="https://arp242.net/weblog/json_as_configuration_files-_please_dont">JSON
+as configuration files: please don’t</a></li>
+<li><a href="https://blog.othree.net/log/2016/01/11/json-universe/">JSON
+Universe</a> in Chinese</li>
 </ul>
 <h3 id="ecmascript">ECMAScript</h3>
 <ul>
-<li><a href="https://github.com/tc39/proposal-json-superset">Subsume JSON</a> A proposal to extend ECMA-262 syntax into a superset of JSON.</li>
+<li><a href="https://github.com/tc39/proposal-json-superset">Subsume
+JSON</a> A proposal to extend ECMA-262 syntax into a superset of
+JSON.</li>
 </ul>
 <h3 id="history">History</h3>
 <ul>
-<li><p><a href="https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Comments in JSON</a> exists <a href="https://web.archive.org/web/20030228034147/http://www.crockford.com/JSON/index.html">at first</a></p>
+<li><p><a
+href="https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Comments
+in JSON</a> exists <a
+href="https://web.archive.org/web/20030228034147/http://www.crockford.com/JSON/index.html">at
+first</a></p>
 <blockquote>
 <p><strong>Comments in JSON</strong></p>
-<p>I removed comments from JSON because I saw people were using them to hold parsing directives, a practice which would have destroyed interoperability. I know that the lack of comments makes some people sad, but it shouldn’t.</p>
-<p>Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.</p>
+<p>I removed comments from JSON because I saw people were using them to
+hold parsing directives, a practice which would have destroyed
+interoperability. I know that the lack of comments makes some people
+sad, but it shouldn’t.</p>
+<p>Suppose you are using JSON to keep configuration files, which you
+would like to annotate. Go ahead and insert all the comments you like.
+Then pipe it through JSMin before handing it to your JSON parser.</p>
 </blockquote>
 <p><cite>Douglas Crockford</cite></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=kc8BAR7SHJI">Discovering JavaScript Object Notation with Douglas Crockford</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=kc8BAR7SHJI">Discovering
+JavaScript Object Notation with Douglas Crockford</a></p></li>
 </ul>
 <h2 id="blue">Blue?</h2>
-<p>Its hard to find a good domain available. And I love the color blue. Also, I am a fan of Dragon Ball. Super Saiyan Blue is very powerful. So I take the name.</p>
+<p>Its hard to find a good domain available. And I love the color blue.
+Also, I am a fan of Dragon Ball. Super Saiyan Blue is very powerful. So
+I take the name.</p>
 
 
     </main>

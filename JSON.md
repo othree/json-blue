@@ -66,6 +66,7 @@ application and some history document. If you found anything missing and deserve
 - [OpenAPI](https://github.com/OAI/OpenAPI-Specification) defines a standard, programming language-agnostic
   interface description for REST APIs
 - [JSON Feed](https://jsonfeed.org/) a format similar to RSS and Atom but in JSON.
+- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) an open file format for infinite canvas data.
 
 ### Valdation
 
