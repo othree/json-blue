@@ -9,6 +9,7 @@ application and some history document. If you found anything missing and deserve
 ### Table of Contents
 
 - [Specification](#specification)
+- [Schemas](＃schemas)
 - [Data in JSON Format](#data-in-json-format)
 - [Variant Format](#variant-format)
 - [Related Format](#related-format)
@@ -38,7 +39,11 @@ application and some history document. If you found anything missing and deserve
 - [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patch
 - [RFC 7396](https://tools.ietf.org/html/rfc7396) JSON Merge Patch
 
-## Schema
+### More at RFC
+
+- [Search JSON at RFC Editor](https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&title=JSON&pubstatus[]=Any&pub_date_type=any&sortkey=Number&sorting=ASC)
+
+## Schemas
 
 - [RFC 8610](https://tools.ietf.org/html/rfc8610) CDDL: Concise Data Definition Language
 - [RFC 8927](https://tools.ietf.org/html/rfc8927) [JSON Typedef](https://jsontypedef.com/)
@@ -50,10 +55,6 @@ application and some history document. If you found anything missing and deserve
 - [TJSON(Tagged JSON)](https://www.tjson.org/) s a tagging scheme/microformat for enriching the types that can be
   stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already
   commonly used for processing JSON into a schema-free, self-describing format.
-
-### More at RFC
-
-- [Search JSON at RFC Editor](https://www.rfc-editor.org/search/rfc_search_detail.php?page=All&title=JSON&pubstatus[]=Any&pub_date_type=any&sortkey=Number&sorting=ASC)
 
 ## Data in JSON Format
 
