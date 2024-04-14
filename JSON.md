@@ -37,8 +37,19 @@ application and some history document. If you found anything missing and deserve
 - [RFC 6901](https://tools.ietf.org/html/rfc6901) JSON Pointer
 - [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patch
 - [RFC 7396](https://tools.ietf.org/html/rfc7396) JSON Merge Patch
+
+## Schema
+
+- [RFC 8610](https://tools.ietf.org/html/rfc8610) CDDL: Concise Data Definition Language
 - [RFC 8927](https://tools.ietf.org/html/rfc8927) [JSON Typedef](https://jsontypedef.com/)
-- [JSON Schema](https://json-schema.org/)
+- [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
+  [Implementations](http://json-schema.org/implementations.html).
+- [JSON Schema Markdown Tools](https://github.com/adobe/jsonschema2md) makes it easier by providing a number of
+  scripts that can turn JSON Schema files into readable Markdown documentation that is ready for consumption
+  on GitHub or processed using Jekyll or other static site generators.
+- [TJSON(Tagged JSON)](https://www.tjson.org/) s a tagging scheme/microformat for enriching the types that can be
+  stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already
+  commonly used for processing JSON into a schema-free, self-describing format.
 
 ### More at RFC
 
@@ -67,17 +78,6 @@ application and some history document. If you found anything missing and deserve
   interface description for REST APIs
 - [JSON Feed](https://jsonfeed.org/) a format similar to RSS and Atom but in JSON.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) an open file format for infinite canvas data.
-
-### Valdation
-
-- [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
-  [Implementations](http://json-schema.org/implementations.html).
-- [JSON Schema Markdown Tools](https://github.com/adobe/jsonschema2md) makes it easier by providing a number of
-  scripts that can turn JSON Schema files into readable Markdown documentation that is ready for consumption
-  on GitHub or processed using Jekyll or other static site generators.
-- [TJSON(Tagged JSON)](https://www.tjson.org/) s a tagging scheme/microformat for enriching the types that can be
-  stored in JSON documents. It augments the existing types present in JSON, codifiying ad hoc practices already
-  commonly used for processing JSON into a schema-free, self-describing format.
 
 ### Encryption
 
@@ -120,6 +120,10 @@ Not Similar to JSON, but related to it.
 
 ### Binary
 
+- [RFC 8949](https://tools.ietf.org/html/rfc8949) [CBOR](https://cbor.io/): Concise Binary Object Representation
+  - [RFC 8152](https://tools.ietf.org/html/rfc8152) COSE: CBOR Object Signing and Encryption
+  - [RFC 8392](https://tools.ietf.org/html/rfc8392) CWT: CBOR Web Token
+  - [RFC 8610](https://tools.ietf.org/html/rfc8610) CDDL: Concise Data Definition Language
 - [MessagePack](https://msgpack.org/) is an efficient binary serialization format. It lets you exchange data
   among multiple languages like JSON.
 - [BSON](http://bsonspec.org/) short for Bin­ary JSON, is a bin­ary-en­coded seri­al­iz­a­tion of JSON-like
