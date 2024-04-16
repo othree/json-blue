@@ -45,6 +45,7 @@ application and some history document. If you found anything missing and deserve
 
 ## Schemas
 
+- [RFC 8785](https://tools.ietf.org/html/rfc8785) [JCS](https://github.com/cyberphone/json-canonicalization): JSON Canonicalization Scheme
 - [RFC 8610](https://tools.ietf.org/html/rfc8610) CDDL: Concise Data Definition Language
 - [RFC 8927](https://tools.ietf.org/html/rfc8927) [JSON Typedef](https://jsontypedef.com/)
 - [JSON Schema](http://json-schema.org/) is a vocabulary that allows you to annotate and validate JSON documents.
@@ -62,6 +63,7 @@ application and some history document. If you found anything missing and deserve
 - [RFC 7265](https://tools.ietf.org/html/rfc7265) jCal: The JSON Format for iCalendar
 - [RFC 7946](https://tools.ietf.org/html/rfc7946) [GeoJSON](http://geojson.org/) is a format for encoding
   a variety of geographic data structures.
+- [RFC 8984](https://tools.ietf.org/html/rfc8984) JSCalendar: A JSON Representation of Calendar Data
 - [TopoJSON](https://github.com/topojson/topojson) is an extension of GeoJSON that encodes topology.
 - [JSON-LD](https://json-ld.org/) is a lightweight Linked Data format.
 - [JSON-stat](https://json-stat.org/) is a simple lightweight JSON dissemination format best suited for data
