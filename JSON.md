@@ -81,7 +81,7 @@ application and some history document. If you found anything missing and deserve
 - [OpenAPI](https://github.com/OAI/OpenAPI-Specification) defines a standard, programming language-agnostic
   interface description for REST APIs
 - [JSON Feed](https://jsonfeed.org/) a format similar to RSS and Atom but in JSON.
-- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) an open file format for infinite canvas data.
+- [JSON Canvas](https://jsoncanvas.org/) an open file format for infinite canvas data.
 
 ### Encryption
 
@@ -113,6 +113,7 @@ Formats Similar to JSON.
   a format for human-readable data, and a superset of JSON and .properties.
 - [Rison](https://rison.io/) is a data format focus on URL friendly and compact. The structure is like JSON,
   but use different character for notation.
+- [JSONC](https://code.visualstudio.com/docs/languages/json#_json-with-comments) JSON with Comments. [parser](https://github.com/microsoft/node-jsonc-parser)
 
 ## Related Format
 
