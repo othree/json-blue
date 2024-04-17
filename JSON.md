@@ -9,7 +9,7 @@ application and some history document. If you found anything missing and deserve
 ### Table of Contents
 
 - [Specification](#specification)
-- [Schemas](＃schemas)
+- [Schemas](#schemas)
 - [Data in JSON Format](#data-in-json-format)
 - [Variant Format](#variant-format)
 - [Related Format](#related-format)
