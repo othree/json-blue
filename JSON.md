@@ -38,6 +38,7 @@ application and some history document. If you found anything missing and deserve
 - [RFC 6901](https://tools.ietf.org/html/rfc6901) JSON Pointer
 - [RFC 6902](https://tools.ietf.org/html/rfc6902) JSON Patch
 - [RFC 7396](https://tools.ietf.org/html/rfc7396) JSON Merge Patch
+- [RFC 9535](https://tools.ietf.org/html/rfc9535) JSONPath: Query Expressions for JSON
 
 ### More at RFC
 
